@@ -1,11 +1,43 @@
-# React + Vite
+# My Figma APG (React Dashboard)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based dashboard application bootstrapped with Vite, utilizing Material UI for components and styling, and Recharts for data visualization. It appears to be based on a Figma design, implementing various dashboard features like KPI summaries, charts, tables (Authors, Projects), and authentication pages (Sign In, Sign Up).
 
-Currently, two official plugins are available:
+## Key Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Framework:** React 19
+*   **Build Tool:** Vite
+*   **UI Library:** Material UI (MUI) v7
+*   **Routing:** React Router DOM v7
+*   **Charting:** Recharts
+*   **Linting:** ESLint
+*   **SVG Handling:** vite-plugin-svgr
+
+## Getting Started
+
+### Prerequisites
+
+*   Node.js (LTS version recommended)
+*   npm (comes with Node.js)
+
+### Installation
+
+1.  Clone the repository (if applicable).
+2.  Navigate to the project directory:
+    ```bash
+    cd x:\Projects\my-figma-apg
+    ```
+3.  Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running the Development Server
+
+To start the development server with Hot Module Replacement (HMR):
+
+```bash
+npm run dev
+```
 
 ## Expanding the ESLint configuration
 
