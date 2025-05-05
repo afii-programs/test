@@ -24,7 +24,7 @@ This project is a React-based dashboard application bootstrapped with Vite, util
 1.  Clone the repository (if applicable).
 2.  Navigate to the project directory:
     ```bash
-    cd x:\Projects\my-figma-apg
+    cd my-figma-apg
     ```
 3.  Install the dependencies:
     ```bash
